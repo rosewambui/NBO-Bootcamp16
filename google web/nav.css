@@ -1,0 +1,30 @@
+.navClass>ul{
+	background-color: #5E5D5D;
+	font-size: 22px;
+	font-family: serif;
+}
+.navClass> ul> li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 20px;
+	position: relative;
+
+}
+.navClass> ul> li:hover {
+background-color: #383838
+}
+ul.sub-menu{
+	position: absolute;
+	background-color: #383838;
+ 	list-style-type: none;
+ 	padding-left: 0px;
+ 	padding-top: 5px;
+ 	opacity: 0;
+}
+ul.sub-menu li {
+	padding-left: 25px;
+	padding-bottom: 5px; 
+}
+.navClass li:hover  .sub-menu{
+	opacity: 1;
+}
